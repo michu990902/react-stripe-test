@@ -2,6 +2,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { stripePromise } from '@config';
 import { UserContext } from '@lib/context';
 import { useUserData } from '@lib/hooks';
+import '@styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
     const userData = useUserData();
@@ -12,7 +13,7 @@ function MyApp({ Component, pageProps }) {
                 <Component {...pageProps} />
             </Elements>
         </UserContext.Provider>
-    )
-}
+    );
+};
 
 export default MyApp;

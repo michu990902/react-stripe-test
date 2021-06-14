@@ -1,13 +1,12 @@
 import { loadStripe } from '@stripe/stripe-js';
 
 export const firebaseConfig = {
-    apiKey: 'AIzaSyAUzu622-f23fl0LX1rf6nxzzy0MP5ERLA',
-    authDomain: 'stripe-js-course.firebaseapp.com',
-    databaseURL: 'https://stripe-js-course.firebaseio.com',
-    projectId: 'stripe-js-course',
-    storageBucket: 'stripe-js-course.appspot.com',
-    messagingSenderId: '84918842518',
-    appId: '1:84918842518:web:d23dedb546fd2e8ee63eb7',
+    apiKey: "AIzaSyClowNI2pZbz3tRq5H3H4alf4twFGJfnAs",
+    authDomain: "next-stripe-firebase-test.firebaseapp.com",
+    projectId: "next-stripe-firebase-test",
+    storageBucket: "next-stripe-firebase-test.appspot.com",
+    messagingSenderId: "144494654941",
+    appId: "1:144494654941:web:00c5d1c5ae9b061b5df234"
 };
   
 export const stripePromise = loadStripe(
